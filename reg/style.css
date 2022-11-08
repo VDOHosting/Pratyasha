@@ -1,0 +1,50 @@
+.wrapper{
+
+    align-self: center;
+    justify-self: center;
+    width: fit-content;
+    margin: 20px;
+}
+
+
+
+body {
+
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-items: center;
+    
+}
+
+.blocktext {
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.border {
+    border-radius: 10px;
+    border-color: black;
+    border-style: solid;
+    margin: 0px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.border:hover {
+    border-radius: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration-color: #05ac02;
+    color: #252525;
+}
